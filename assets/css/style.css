@@ -14,14 +14,13 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-header{
-    color: aliceblue;
+nav{
     background-color:rgba(0,74,143);    
-    height: 10vh;
 }
-img{
+/* img{
     height: 10vh;
-}
+} */
+
 #UANL{
     font-family: "Times New Roman", serif;
 }
@@ -35,6 +34,9 @@ footer{
 }
 .h-85{
     height: 85%;
+}
+.h-90{
+    height: 90%;
 }
 @media only screen and (max-width: 600px) { 
 
