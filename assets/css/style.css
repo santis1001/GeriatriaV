@@ -14,13 +14,14 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-nav{
+header{
+    color: aliceblue;
     background-color:rgba(0,74,143);    
-}
-/* img{
     height: 10vh;
-} */
-
+}
+img{
+    height: 10vh;
+}
 #UANL{
     font-family: "Times New Roman", serif;
 }
@@ -34,9 +35,6 @@ footer{
 }
 .h-85{
     height: 85%;
-}
-.h-90{
-    height: 90%;
 }
 @media only screen and (max-width: 600px) { 
 
@@ -107,5 +105,27 @@ footer{
 }
 
 .scrollbar-morpheus-den {
-    scrollbar-color: #330867 #F5F5F5;
+    scrollbar-color: #F5F5F5;
+}
+
+
+.scrollbar-encuesta-list:-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #004a8f;
+    border-radius: 10px;
+}
+
+.scrollbar-encuesta-list::-webkit-scrollbar {
+    width: 12px;
+    background-color: #004a8f;
+}
+
+.scrollbar-encuesta-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(bottom, #fff 0%, #fff 100%);
+}
+
+.scrollbar-encuesta-list{
+    scrollbar-color: #004a8f;
 }
