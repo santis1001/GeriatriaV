@@ -9,84 +9,68 @@
 }
 body{
     height: 100vh;
+    width: 100vw;
+
     background-image: url("./assets/img/fondoflama-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 header{
     color: aliceblue;
     background-color:rgba(0,74,143);    
-    height: 10vh;
+    /* height: 10vh; */
 }
+main{
+    margin-bottom: 0;
+}
+
 img{
     height: 10vh;
 }
 #UANL{
     font-family: "Times New Roman", serif;
 }
-main{
+/* main{
     height: 83vh;
-}
+} */
 footer{
     color: aliceblue;
     background-color:rgba(0,74,143);
-    height: 7vh;
+    height: 7%;
 }
-.h-85{
-    height: 85%;
-}
-@media only screen and (max-width: 600px) { 
-
-    header{
-        color: aliceblue;
-        background-color:rgba(0,74,143);    
-        height: 5vh;
-    }
-    img{
-        height: 5vh;
-    }
-    #UANL{
-        font-family: "Times New Roman", serif;
-    }
-    main{
-        height: 90vh;
-    }
-    footer{
-        color: aliceblue;
-        background-color:rgba(0,74,143);
-        height: 5vh;
-    }
-}
-
-@media only screen and (max-width: 1300px) { 
-
-    header{
-        color: aliceblue;
-        background-color:rgba(0,74,143);    
-        height: 7vh;
-    }
-    img{
-        height: 7vh;
-    }
-    #UANL{
-        font-family: "Times New Roman", serif;
-    }
-    main{
-        height: 88vh;
-    }
-    footer{
-        color: aliceblue;
-        background-color:rgba(0,74,143);
-        height: 5vh;
-    }
-    .w-50{
-        width: 75%!important;
-    }
+.bg-negro-custom{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .h-75p{
     height: 60vh;
 }
+
+.h-85{
+    height: 85%;
+}
+@media only screen and (max-width: 600px) { 
+ 
+    img{
+        height: 5vh;
+    } 
+}
+
+@media only screen and (max-width: 1300px) { 
+
+     
+    img{
+        height: 7vh;
+    }
+     
+}
+
+
+
+
+
+
 .scrollbar-morpheus-den::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     background-color: var(--dark-purple-color);
