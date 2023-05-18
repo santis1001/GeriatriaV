@@ -40,6 +40,7 @@ footer{
     background-color:rgba(0,74,143);
     height: 7%;
 }
+
 .bg-negro-custom{
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -50,11 +51,25 @@ footer{
 .h-85{
     height: 85%;
 }
+.hide-menu{
+    display: none;
+}
+
 @media only screen and (max-width: 600px) { 
  
     img{
         height: 5vh;
     } 
+   
+}
+@media only screen and (max-width: 850px) { 
+ 
+    .hide-md{
+        display: none;
+    }
+    .hide-menu{
+        display: flex;
+    }
 }
 
 @media only screen and (max-width: 1300px) { 
@@ -95,13 +110,13 @@ footer{
 
 .scrollbar-encuesta-list:-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-    background-color: #004a8f;
+    background-color: rgba(0,0,0,0);
     border-radius: 10px;
 }
 
 .scrollbar-encuesta-list::-webkit-scrollbar {
     width: 12px;
-    background-color: #004a8f;
+    background-color: rgba(0,0,0,0);
 }
 
 .scrollbar-encuesta-list::-webkit-scrollbar-thumb {
@@ -111,5 +126,5 @@ footer{
 }
 
 .scrollbar-encuesta-list{
-    scrollbar-color: #004a8f;
+    background-color: rgba(0,0,0,0);
 }
