@@ -102,6 +102,10 @@
                         </div>
                     </a>
                 </div>
+                <div class="d-flex align-items-center justify-content-center p-2">
+                    <button class="btn btn-info" type="button" data-bs-toggle="modal"
+                        data-bs-target="#Modal_DGEN">Agregar</button>
+                </div>
             </div>
         </div>
 
@@ -129,36 +133,6 @@
                     </div>
                 </section>
                 <section class="row  h-75p justify-content-center">
-                    <!-- <div class="card col-md-4 h-100 " style="background-color: #004A8F;">
-                <section class="row card-header bg-light">
-                    <div class="col-12">
-                        <h4 class="fw-bold text-center fs-5">Encuestas</h4>
-                    </div>
-                </section>
-                <section class="overflow-auto scrollbar-encuesta-list">
-                    <div class="d-grid gap-3 p-2 ">
-
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-                        <button type="button" class="btn btn-light">Lista Encuesta1</button>
-
-                    </div>
-                </section>
-                <section class="card-footer row">
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                        data-bs-target="#Modal_EDLB">Iniciar Encuesta</button>
-                </section>
-            </div> -->
                     <div class="card col-md-8 h-100 bg-negro-custom ">
                         <section class="row card-header bg-light">
                             <div class="col-12">
@@ -199,6 +173,664 @@
         </div>
 
         <div>
+            <div class="modal fade" id="Modal_DGEN" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Datos Generales</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <section class="card-body overflow-auto scrollbar-morpheus-den">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item">
+                                        <form class="row g-3 needs-validation" novalidate>
+                                            <div class="col-md-12">
+                                                <label class="w-100 fs-4 text-center">Informacion Personal</label>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="validationCustom01" class="form-label">Nombre</label>
+                                                <input type="text" class="form-control" id="validationCustom01"
+                                                    placeholder="Ingresar Nombre" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="validationCustom02" class="form-label">Apellido</label>
+                                                <input type="text" class="form-control" id="validationCustom02"
+                                                    placeholder="Ingresar Apellido (Paterno Materno)" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <label for="validationCustomFolio" class="form-label">Folio</label>
+                                                <div class="input-group has-validation">
+                                                    <span class="input-group-text" id="inputGroupPrepend">No.</span>
+                                                    <input type="text" class="form-control" id="validationCustomFolio"
+                                                        aria-describedby="inputGroupPrepend" required>
+                                                    <div class="valid-feedback">
+                                                        Correcto!
+                                                    </div>
+                                                    <div class="invalid-feedback">
+                                                        Rellene el campo correctamente.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="validationDate" class="form-label">Fecha</label>
+                                                <div class="input-group has-validation">
+                                                    <span class="input-group-text" id="inputGroupPrepend">No.</span>
+                                                    <input type="date" class="form-control" id="validationDate"
+                                                        aria-describedby="inputGroupPrepend" required>
+                                                    <div class="valid-feedback">
+                                                        Correcto!
+                                                    </div>
+                                                    <div class="invalid-feedback">
+                                                        Rellene el campo correctamente.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label for="validationCustom03" class="form-label">Direccion Actual
+                                                    donde vive</label>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="validationCustom03" class="form-label">Calle</label>
+                                                <input type="text" class="form-control" id="validationCustom03"
+                                                    placeholder="Calle" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="validationCustom04" class="form-label">Numero</label>
+                                                <input type="text" class="form-control" id="validationCustom04"
+                                                    placeholder="Numero" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="validationCustom05" class="form-label">Colonia</label>
+                                                <input type="text" class="form-control" id="validationCustom05"
+                                                    placeholder="Colonia" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="validationCustom06" class="form-label">Municipio</label>
+                                                <input type="text" class="form-control" id="validationCustom06"
+                                                    placeholder="Municipio" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="validationCustom07" class="form-label">C.P.</label>
+                                                <input type="text" class="form-control" id="validationCustom07"
+                                                    required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="validationCustom08" class="form-label">Telefono de
+                                                    Casa</label>
+                                                <input type="text" class="form-control" id="validationCustom08"
+                                                    required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="validationCustom09" class="form-label">Numero de
+                                                    Celular</label>
+                                                <input type="text" class="form-control" id="validationCustom09"
+                                                    required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="validationCustom10" class="form-label">Edad</label>
+                                                <input type="text" class="form-control" id="validationCustom10"
+                                                    required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="validationCustom10" class="form-label">Fecha de
+                                                    Nacimiento</label>
+                                                <div class="input-group has-validation">
+                                                    <span class="input-group-text" id="inputGroupPrepend">No.</span>
+                                                    <input type="date" class="form-control" id="validationCustom10"
+                                                        aria-describedby="inputGroupPrepend" required>
+                                                    <div class="valid-feedback">
+                                                        Correcto!
+                                                    </div>
+                                                    <div class="invalid-feedback">
+                                                        Rellene el campo correctamente.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label for="validationCustom11" class="form-label">Ingrese el nombre
+                                                    completo de su
+                                                    mamá</label>
+                                                <input type="text" class="form-control" id="validationCustom11"
+                                                    required>
+                                                <div>
+                                                    Recuerde que el apellido de la mamá del adulto mayor lo utilizará en
+                                                    la evaluación
+                                                    de Pfeiffer
+                                                </div>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <form class="row g-3 needs-validation" novalidate>
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col"></th>
+                                                        <th scope="col">Pregunta</th>
+                                                        <th scope="col">Si</th>
+                                                        <th scope="col">No</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>¿Tiene usted problemas para escuchar?</td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions1" id="inlineRadio1"
+                                                                    value="option1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions1" id="inlineRadio2"
+                                                                    value="option2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>¿Siente usted que tiene perdida de la audición?</td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions2" id="inlineRadio1"
+                                                                    value="option1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions2" id="inlineRadio2"
+                                                                    value="option2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>¿Tiene dificultad para entender la conversación?</td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions3" id="inlineRadio1"
+                                                                    value="option1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions3" id="inlineRadio2"
+                                                                    value="option2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">4</th>
+                                                        <td>¿Tiene dificultad para ver?</td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions4" id="inlineRadio1"
+                                                                    value="option1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions4" id="inlineRadio2"
+                                                                    value="option2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">5</th>
+                                                        <td>¿Tiene temor a caerse?</td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions5" id="inlineRadio1"
+                                                                    value="option1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions5" id="inlineRadio2"
+                                                                    value="option2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">6</th>
+                                                        <td>¿Cuántas veces se ha caído en los últimos dos años?</td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions6" id="inlineRadio1"
+                                                                    value="option1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions6" id="inlineRadio2"
+                                                                    value="option2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">7</th>
+                                                        <td>¿Cuantas veces se ha fracturado en los últimos dos años?
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions7" id="inlineRadio1"
+                                                                    value="option1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions7" id="inlineRadio2"
+                                                                    value="option2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">8</th>
+                                                        <td>Si la respuesta es sí ¿Qué parte del cuerpo se ha fracturado
+                                                            en los dos últimos años?</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4 row">
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio8a">Brazo</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions8" id="inlineRadio8a"
+                                                                    value="option1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio8b">Cadera</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions8" id="inlineRadio8b"
+                                                                    value="option2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio8c">Muñeca</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions8" id="inlineRadio8c"
+                                                                    value="option1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio8d">Hombro</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions8" id="inlineRadio8d"
+                                                                    value="option2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio8e">Ninguna de las
+                                                                    anteriores</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions8" id="inlineRadio8e"
+                                                                    value="option1">
+                                                            </div>
+                                                            <div class="row m-1" id="OtherOptions">
+                                                                <label for="inputAltOp"
+                                                                    class="col-sm-2 col-form-label">Cual?</label>
+                                                                <div class="col-sm-10">
+                                                                    <input type="email" class="form-control"
+                                                                        id="inputAltOp">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">9</th>
+                                                        <td>¿Cuál es su estado civil?</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4 row">
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio9a">Cazado</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions9" id="inlineRadio9a"
+                                                                    value="option1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio9b">Viudo</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions9" id="inlineRadio9b"
+                                                                    value="option2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio9c">Divorciado</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions9" id="inlineRadio9c"
+                                                                    value="option3">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio9d">Unión Libre</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions9" id="inlineRadio9d"
+                                                                    value="option4">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio9e">Soltero</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions9" id="inlineRadio9e"
+                                                                    value="option5">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio9e">Otro</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions9" id="inlineRadio9e"
+                                                                    value="option16">
+                                                            </div>
+                                                            <div class="row m-1" id="OtherOptions">
+                                                                <label for="inputAltOp"
+                                                                    class="col-sm-2 col-form-label">Otros?</label>
+                                                                <div class="col-sm-10">
+                                                                    <input type="email" class="form-control"
+                                                                        id="inputAltOp">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">10</th>
+                                                        <td>¿Cuántos hijos tiene? </td>
+                                                        <td>
+                                                            <div class="">
+                                                                <input type="number" class="form-control"
+                                                                    id="inputAltOp">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">11</th>
+                                                        <td>¿Con quién vive?</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4 row">
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio11a">Solo</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions11" id="inlineRadio11a"
+                                                                    value="option1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio11b">Con su pareja</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions11" id="inlineRadio11b"
+                                                                    value="option2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio811c">Hijos</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions11" id="inlineRadio11c"
+                                                                    value="option1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio811d">Hermanos</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions11" id="inlineRadio11d"
+                                                                    value="option2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio11e">Nietos</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions11" id="inlineRadio11e"
+                                                                    value="option1">
+                                                            </div>
+                                                            <div class="row m-1" id="OtherOptions">
+                                                                <label for="inputAltOp"
+                                                                    class="col-sm-2 col-form-label">Otros</label>
+                                                                <div class="col-sm-10">
+                                                                    <input type="email" class="form-control"
+                                                                        id="inputAltOp">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">12</th>
+                                                        <td>¿Depende económicamente de alguien?</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4 row">
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio12a">No</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions12" id="inlineRadio12a"
+                                                                    value="option1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio12b">De su pareja</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions12" id="inlineRadio12b"
+                                                                    value="option2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio12c">De sus hijos</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions12" id="inlineRadio12c"
+                                                                    value="option1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio12d">de hermanos</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions12" id="inlineRadio12d"
+                                                                    value="option2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio12e">De nietos</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions12" id="inlineRadio12e"
+                                                                    value="option1">
+                                                            </div>
+                                                            <div class="row m-1" id="OtherOptions">
+                                                                <label for="inputAltOp"
+                                                                    class="col-sm-2 col-form-label">Otros?</label>
+                                                                <div class="col-sm-10">
+                                                                    <input type="email" class="form-control"
+                                                                        id="inputAltOp">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">13</th>
+                                                        <td>¿En que trabaja?</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4 row">
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio13a">Hogar</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions13" id="inlineRadio13a"
+                                                                    value="option1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio13b">Fuera del hogar</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions13" id="inlineRadio13b"
+                                                                    value="option2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio13c">Pensionado</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions13" id="inlineRadio13c"
+                                                                    value="option1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="inlineRadio13d">Jubilado</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="inlineRadioOptions13" id="inlineRadio13d"
+                                                                    value="option2">
+                                                            </div>                                                             
+                                                            <div class="row m-1" id="OtherOptions">
+                                                                <label for="inputAltOp"
+                                                                    class="col-sm-6 col-form-label">Si trabaja fuera del hogar describir ¿en que trabaja?</label>
+                                                                <div class="col-sm-6">
+                                                                    <input type="email" class="form-control"
+                                                                        id="inputAltOp">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">14</th>
+                                                        <td>¿Cuantos años estudio?</td>
+                                                        <td>
+                                                            <div class="">
+                                                                <input type="number" class="form-control"
+                                                                    id="inputAltOp">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">15</th>
+                                                        <td>¿Cuál es su escolaridad máxima?</td>
+                                                        <td>
+                                                            <div class="">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option selected>Escolaridad</option>
+                                                                    <option value="1">Primaria</option>
+                                                                    <option value="2">Secundaria</option>
+                                                                    <option value="3">Bachillerato</option>
+                                                                    <option value="3">Universidad</option>
+                                                                </select>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </form>
+                                    </li>
+
+                                    <li class="list-group-item"></li>
+
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <div class="row">
+                                <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                <h6 class="modal-title col px-1">15</h6>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="modal fade" id="Modal_MNAM" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
                 aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div
