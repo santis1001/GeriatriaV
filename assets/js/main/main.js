@@ -27,6 +27,7 @@ login.addEventListener('submit', function (event) {
             })
             .catch(function (error) {
                 console.log(error)
+                document.getElementById('errorMsg').textContent = 'No Existe Usuario';
                 showError();
             });
 
