@@ -1,5 +1,4 @@
-
-:root{
+:root {
     --dark-purple-color: #fff;
     --light-purple-color: #8854C0;
     --light-color: #fff;
@@ -7,7 +6,8 @@
     --grey-color: #f2f2f2;
     --transition: all 300ms ease-in-out;
 }
-body{
+
+body {
     height: 100vh;
     width: 100vw;
 
@@ -17,71 +17,95 @@ body{
     background-position: center;
 }
 
-header{
+header {
     color: aliceblue;
-    background-color:rgba(0,74,143);    
+    background-color: rgba(0, 74, 143);
     /* height: 10vh; */
 }
-main{
+
+main {
     margin-bottom: 0;
 }
 
-img{
+img {
     height: 10vh;
 }
-#UANL{
+
+#UANL {
     font-family: "Times New Roman", serif;
 }
+
+#login:hover{
+    background-color: aqua;
+}
+#BTN_Agregar:hover{
+    background-color: aqua;
+}
+
 /* main{
     height: 83vh;
 } */
-footer{
+footer {
     color: aliceblue;
-    background-color:rgba(0,74,143);
+    background-color: rgba(0, 74, 143);
     height: 7%;
 }
 
-.bg-negro-custom{
+.bg-negro-custom {
     background-color: rgba(0, 0, 0, 0.5);
 }
-.h-75p{
+.bg-aqua{
+    background-color: #57cecb;
+}
+.bg-gray{
+    background-color: #818181;
+}
+.h-75p {
     height: 60vh;
 }
 
-.h-85{
+.h-85 {
     height: 85%;
 }
-.hide-menu{
+
+.hide-menu {
     display: none;
 }
 
-@media only screen and (max-width: 600px) { 
- 
-    img{
+@media only screen and (max-width: 600px) {
+
+    img {
         height: 5vh;
-    } 
-   
+    }
+
 }
-@media only screen and (max-width: 850px) { 
- 
-    .hide-md{
+
+@media only screen and (max-width: 850px) {
+
+    .hide-md {
         display: none;
     }
-    .hide-menu{
+
+    .hide-menu {
         display: flex;
     }
 }
 
-@media only screen and (max-width: 1300px) { 
+@media only screen and (max-width: 1300px) {
 
-     
-    img{
+
+    img {
         height: 7vh;
     }
-     
+
 }
 
-
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #57cecb;
+    border-color: #57cecb
+}
 
 
 
@@ -110,13 +134,13 @@ footer{
 
 .scrollbar-encuesta-list:-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 10px;
 }
 
 .scrollbar-encuesta-list::-webkit-scrollbar {
     width: 12px;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .scrollbar-encuesta-list::-webkit-scrollbar-thumb {
@@ -125,6 +149,6 @@ footer{
     background-image: -webkit-linear-gradient(bottom, #fff 0%, #fff 100%);
 }
 
-.scrollbar-encuesta-list{
-    background-color: rgba(0,0,0,0);
+.scrollbar-encuesta-list {
+    background-color: rgba(0, 0, 0, 0);
 }

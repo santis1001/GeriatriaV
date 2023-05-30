@@ -1,0 +1,2559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cuestionario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body style='background-image: url("./assets/img/fondoflama-2.jpg");'>
+    <!-- <header class="m-0 w-100">
+        <div class="container-fluid header-cl text-center">
+            <div class="row p-2">
+                <div class="col-auto">
+                    <img src="./assets/img/uanl.png" alt="UANL">
+                </div>
+                <div class="col position-relative ">
+                    <h2 class=" position-absolute top-50 start-0 translate-middle-y " id="UANL">Univesidad
+                        Autonoma de
+                        Nuevo Leon</h2>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <main class="d-flex h-100">
+        <div class="col-auto hide-md">
+
+            <div class="d-flex flex-column flex-shrink-1 bg-white h-100" style="width: 380px;">
+                <a href="/"
+                    class="d-flex align-items-center flex-shrink-0 p-3 link-dark text-decoration-none border-bottom">
+                    <span class="fs-5 fw-semibold">Lista Encuesta</span>
+                </a>
+                <div class="list-group list-group-flush border-bottom overflow-auto">
+                    <a href="#" class="list-group-item list-group-item-action active py-3 lh-tight" aria-current="true">
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <strong class="mb-1">Nombre del Entrevistado</strong>
+                            <small>15/05/22</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <strong class="mb-1">Nombre del Entrevistado</strong>
+                            <small>15/05/22</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <strong class="mb-1">Nombre del Entrevistado</strong>
+                            <small>15/05/22</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <strong class="mb-1">Nombre del Entrevistado</strong>
+                            <small>15/05/22</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <strong class="mb-1">Nombre del Entrevistado</strong>
+                            <small>15/05/22</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <strong class="mb-1">Nombre del Entrevistado</strong>
+                            <small>15/05/22</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <strong class="mb-1">Nombre del Entrevistado</strong>
+                            <small>15/05/22</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <strong class="mb-1">Nombre del Entrevistado</strong>
+                            <small>15/05/22</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <strong class="mb-1">Nombre del Entrevistado</strong>
+                            <small>15/05/22</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <strong class="mb-1">Nombre del Entrevistado</strong>
+                            <small>15/05/22</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <strong class="mb-1">Nombre del Entrevistado</strong>
+                            <small>15/05/22</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="d-flex align-items-center justify-content-center p-2">
+                    <button class="btn btn-info" type="button" data-bs-toggle="modal"
+                        data-bs-target="#Modal_DGEN">Agregar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col d-flex align-items-center justify-content-center">
+            <div class="p-4">
+                <div class="row hide-menu justify-content-center">
+                    <div class="col-md-8 dropdown p-0">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Lista Encuesta
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Nombre del
+                                    Entrevistado <p>18/05/32</p></a></li>
+                            <li><a class="dropdown-item" href="#">Nombre del
+                                    Entrevistado <p>18/05/32</p></a></li>
+                            <li><a class="dropdown-item" href="#">Nombre del
+                                    Entrevistado <p>18/05/32</p></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <section class="row py-3 justify-content-center">
+                    <div class="col-md-8 bg-negro-custom rounded ">
+                        <h6 class="fw-bold text-center text-white">TÓPICOS
+                            SELECTOS DE NUTRICIÓN GERIATRÍA</h6>
+                        <h6 class="fw-bold text-center text-white">VALORACIÓN
+                            GERIÁTRICA INTEGRAL DEL ADULTO MAYOR</h6>
+                        <h6 class="fw-bold text-center text-white">EVIDENCIA
+                            2</h6>
+                    </div>
+                </section>
+                <section class="row  h-75p justify-content-center">
+                    <div class="card col-md-8 h-100 bg-negro-custom ">
+                        <section class="row card-header bg-light">
+                            <div class="col-12">
+                                <h4 class="fw-bold text-center fs-5">Encuesta:
+                                    Nombre Apellido</h4>
+                            </div>
+                        </section>
+                        <section class="overflow-auto scrollbar-encuesta-list px-2">
+                            <div class="container">
+                                <div class="d-grid justify-content-center">
+                                    <div class="row d-flex justify-content-center">
+                                        <button class="col-xl-5 m-3 btn btn-success" type="button"
+                                            data-bs-toggle="modal" data-bs-target="#Modal_MNAM">MINI NUTRITIONAL
+                                            ASSESSMENT MNA</button>
+                                        <button class="col-xl-5 m-3 btn btn-light" type="button" data-bs-toggle="modal"
+                                            data-bs-target="#Modal_CSFDS">CUESTIONARIO SARC-F PARA LA
+                                            DETECCIÓN DE SARCOPENIA</button>
+                                        <button class="col-xl-5 m-3 btn btn-light" type="button" data-bs-toggle="modal"
+                                            data-bs-target="#Modal_FRAIL">CUESTIONARIO FRAIL</button>
+                                        <button class="col-xl-5 m-3 btn btn-light" type="button" data-bs-toggle="modal"
+                                            data-bs-target="#Modal_ESDP">ESCALA SPMSQ DE PFEIFFER</button>
+                                        <button class="col-xl-5 m-3 btn btn-light" type="button" data-bs-toggle="modal"
+                                            data-bs-target="#Modal_EDGTY">ESCALA DE DEPRESIÓN GERIÁTRICA TEST
+                                            DE YESAVAGE</button>
+                                        <button class="col-xl-5 m-3 btn btn-light" type="button" data-bs-toggle="modal"
+                                            data-bs-target="#Modal_OSRS">OARS SOCIAL RESOURCE SCALE</button>
+                                        <button class="col-xl-5 m-3 btn btn-light" type="button" data-bs-toggle="modal"
+                                            data-bs-target="#Modal_KATZ">INDICE DE KATZ</button>
+                                        <button class="col-xl-5 m-3 btn btn-light" type="button" data-bs-toggle="modal"
+                                            data-bs-target="#Modal_EDLB">ESCALA DE LAWTON Y BRODY</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+        <div>
+            <div class="modal fade" id="Modal_DGEN" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Datos
+                                Generales</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <section class="card-body overflow-auto scrollbar-morpheus-den">
+                                <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item">
+                                        <form class="row g-3 needs-validation" novalidate>
+                                            <div class="col-md-12">
+                                                <label class="w-100 fs-4 text-center">Informacion
+                                                    Personal</label>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="DGEN-IP-01" class="form-label">Nombre</label>
+                                                <input type="text" class="form-control" id="DGEN-IP-01"
+                                                    placeholder="Ingresar Nombre" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo
+                                                    correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="DGEN-IP-02" class="form-label">Apellido</label>
+                                                <input type="text" class="form-control" id="DGEN-IP-02"
+                                                    placeholder="Ingresar Apellido (Paterno Materno)" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo
+                                                    correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <label for="validationCustomFolio" class="form-label">Folio</label>
+                                                <div class="input-group has-validation">
+                                                    <span class="input-group-text" id="inputGroupPrepend">No.</span>
+                                                    <input type="text" class="form-control" id="DGEN-IP-03"
+                                                        aria-describedby="inputGroupPrepend" required>
+                                                    <div class="valid-feedback">
+                                                        Correcto!
+                                                    </div>
+                                                    <div class="invalid-feedback">
+                                                        Rellene el campo
+                                                        correctamente.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="validationDate" class="form-label">Fecha</label>
+                                                <div class="input-group has-validation">
+                                                    <span class="input-group-text" id="inputGroupPrepend">No.</span>
+                                                    <input type="date" class="form-control" id="validationDate"
+                                                        aria-describedby="inputGroupPrepend" required>
+                                                    <div class="valid-feedback">
+                                                        Correcto!
+                                                    </div>
+                                                    <div class="invalid-feedback">
+                                                        Rellene el campo
+                                                        correctamente.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label for="validationCustom03" class="form-label">Direccion
+                                                    Actual
+                                                    donde vive</label>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="DGEN-IP-04" class="form-label">Calle</label>
+                                                <input type="text" class="form-control" id="DGEN-IP-04"
+                                                    placeholder="Calle" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo
+                                                    correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="DGEN-IP-05" class="form-label">Numero</label>
+                                                <input type="text" class="form-control" id="DGEN-IP-05"
+                                                    placeholder="Numero" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo
+                                                    correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="DGEN-IP-06" class="form-label">Colonia</label>
+                                                <input type="text" class="form-control" id="DGEN-IP-06"
+                                                    placeholder="Colonia" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo
+                                                    correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="DGEN-IP-07" class="form-label">Municipio</label>
+                                                <input type="text" class="form-control" id="DGEN-IP-07"
+                                                    placeholder="Municipio" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo
+                                                    correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="DGEN-IP-08" class="form-label">C.P.</label>
+                                                <input type="text" class="form-control" id="DGEN-IP-08" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo
+                                                    correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="DGEN-IP-09" class="form-label">Telefono
+                                                    de
+                                                    Casa</label>
+                                                <input type="text" class="form-control" id="DGEN-IP-09" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo
+                                                    correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="DGEN-IP-10" class="form-label">Numero
+                                                    de
+                                                    Celular</label>
+                                                <input type="text" class="form-control" id="DGEN-IP-10" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo
+                                                    correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="DGEN-IP-11" class="form-label">Edad</label>
+                                                <input type="text" class="form-control" id="DGEN-IP-11" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo
+                                                    correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="DGEN-IP-11" class="form-label">Fecha
+                                                    de
+                                                    Nacimiento</label>
+                                                <div class="input-group has-validation">
+                                                    <span class="input-group-text" id="inputGroupPrepend">No.</span>
+                                                    <input type="date" class="form-control" id="validationCustom10"
+                                                        aria-describedby="inputGroupPrepend" required>
+                                                    <div class="valid-feedback">
+                                                        Correcto!
+                                                    </div>
+                                                    <div class="invalid-feedback">
+                                                        Rellene el campo
+                                                        correctamente.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label for="DGEN-IP-12" class="form-label">Ingrese
+                                                    el nombre
+                                                    completo de su
+                                                    mamá</label>
+                                                <input type="text" class="form-control" id="DGEN-IP-12" required>
+                                                <div>
+                                                    Recuerde que el apellido
+                                                    de la mamá del adulto
+                                                    mayor lo utilizará en
+                                                    la evaluación
+                                                    de Pfeiffer
+                                                </div>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo
+                                                    correctamente.
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <form class="row g-3 needs-validation" novalidate>
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col"></th>
+                                                        <th scope="col">Pregunta</th>
+                                                        <th scope="col">Si</th>
+                                                        <th scope="col">No</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>¿Tiene usted
+                                                            problemas para
+                                                            escuchar?</td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA01" id="DGEN-RA-01Y" value="Y1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA01" id="DGEN-RA-01N" value="N1">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>¿Siente usted
+                                                            que tiene
+                                                            perdida de la
+                                                            audición?</td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA02" id="DGEN-RA-02Y" value="Y1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA02" id="DGEN-RA-02N" value="N2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>¿Tiene
+                                                            dificultad para
+                                                            entender la
+                                                            conversación?</td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA03" id="DGEN-RA-03Y" value="Y1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA03" id="DGEN-RA-03N" value="N2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">4</th>
+                                                        <td>¿Tiene
+                                                            dificultad para
+                                                            ver?</td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA04" id="DGEN-RA-04Y" value="Y1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA04" id="DGEN-RA-04N" value="N2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">5</th>
+                                                        <td>¿Tiene temor a
+                                                            caerse?</td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA05" id="DGEN-RA-05Y" value="Y1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA05" id="DGEN-RA-05N" value="N2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">6</th>
+                                                        <td>¿Cuántas veces
+                                                            se ha caído en
+                                                            los últimos dos
+                                                            años?</td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA06" id="DGEN-RA-06Y" value="Y1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA06" id="DGEN-RA-06N" value="N2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">7</th>
+                                                        <td>¿Cuantas veces
+                                                            se ha fracturado
+                                                            en los últimos
+                                                            dos años?
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA07" id="DGEN-RA-07Y" value="Y1">
+
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA07" id="DGEN-RA-07N" value="N2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">8</th>
+                                                        <td>Si la respuesta
+                                                            es sí ¿Qué parte
+                                                            del cuerpo se ha
+                                                            fracturado
+                                                            en los dos
+                                                            últimos años?</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4 row">
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-08A">Brazo</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA08" id="DGEN-RA-08A" value="A1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-08B">Cadera</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA08" id="DGEN-RA-08B" value="B2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-08C">Muñeca</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA08" id="DGEN-RA-08C" value="C3">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-08D">Hombro</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA08" id="DGEN-RA-08D" value="D4">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-08E">Ninguna
+                                                                    de las
+                                                                    anteriores</label>
+                                                                <input class="form-check-input collapsable" type="radio"
+                                                                    name="DGENRA08" id="DGEN-RA-08E" value="E5">
+                                                            </div>
+                                                            <div class="row m-1 collapse" id="OtherOptions08"
+                                                                radio-family="DGENRA08">
+                                                                <label for="inputAltOp"
+                                                                    class="col-sm-2 col-form-label">Cual?</label>
+                                                                <div class="col-sm-10">
+                                                                    <input type="email" class="form-control"
+                                                                        id="inputAltOp">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">9</th>
+                                                        <td>¿Cuál es su
+                                                            estado civil?</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4 row">
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-09A">Cazado</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA09" id="DGEN-RA-09A" value="A1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-09B">Viudo</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA09" id="DGEN-RA-09B" value="B2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-09C">Divorciado</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA09" id="DGEN-RA-09C" value="C3">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label" for="DGEN-RA-09D">Unión
+                                                                    Libre</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA09" id="DGEN-RA-09D" value="D4">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-09E">Soltero</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA09" id="DGEN-RA-09E" value="E5">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label" for="DGEN-RA-09F"
+                                                                    aria-controls="OtherOptions09">
+                                                                    Otro
+                                                                </label>
+                                                                <input class="form-check-input collapsable" type="radio"
+                                                                    name="DGENRA09" id="DGEN-RA-09F" value="F6">
+                                                            </div>
+
+                                                            <div class="row m-1 collapse" id="OtherOptions09"
+                                                                radio-family="DGENRA09">
+                                                                <label for="inputAltOp"
+                                                                    class="col-sm-2 col-form-label">Otros?</label>
+                                                                <div class="col-sm-10">
+                                                                    <input type="email" class="form-control"
+                                                                        id="inputAltOp">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">10</th>
+                                                        <td>¿Cuántos hijos
+                                                            tiene? </td>
+                                                        <td>
+                                                            <div class>
+                                                                <input type="number" class="form-control"
+                                                                    id="DGEN-RA-10">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">11</th>
+                                                        <td>¿Con quién vive?</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4 row">
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-11A">Solo</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA11" id="DGEN-RA-11A" value="A1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label" for="DGEN-RA-11B">Con
+                                                                    su
+                                                                    pareja</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA11" id="DGEN-RA-11B" value="B2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-11C">Hijos</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA11" id="DGEN-RA-11C" value="C3">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-11D">Hermanos</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA11" id="DGEN-RA-11D" value="D4">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-11E">Nietos</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA11" id="DGEN-RA-11E" value="E5">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-11F">Otros?</label>
+                                                                <input class="form-check-input collapsable" type="radio"
+                                                                    name="DGENRA11" id="DGEN-RA-11F" value="F6">
+                                                            </div>
+                                                            <div class="row m-1 collapse" id="OtherOptions11"
+                                                                radio-family="DGENRA11">
+                                                                <label for="inputAltOp"
+                                                                    class="col-sm-2 col-form-label">Otros?</label>
+                                                                <div class="col-sm-10">
+                                                                    <input type="email" class="form-control"
+                                                                        id="inputAltOp">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">12</th>
+                                                        <td>¿Depende
+                                                            económicamente
+                                                            de alguien?</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4 row">
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-12A">No</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA12" id="DGEN-RA-12A" value="A1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label" for="DGEN-RA-12B">De
+                                                                    su
+                                                                    pareja</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA12" id="DGEN-RA-12B" value="B2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label" for="DGEN-RA-12C">De
+                                                                    sus
+                                                                    hijos</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA12" id="DGEN-RA-12C" value="C3">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label" for="DGEN-RA-12D">de
+                                                                    hermanos</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA12" id="DGEN-RA-12D" value="D4">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label" for="DGEN-RA-12E">De
+                                                                    nietos</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA12" id="DGEN-RA-12E" value="E5">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-12F">Otros?</label>
+                                                                <input class="form-check-input collapsable" type="radio"
+                                                                    name="DGENRA12" id="DGEN-RA-12F" value="F6">
+                                                            </div>
+                                                            <div class="row m-1 collapse" id="OtherOptions12"
+                                                                radio-family="DGENRA12">
+                                                                <label for="inputAltOp"
+                                                                    class="col-sm-2 col-form-label">Otros?</label>
+                                                                <div class="col-sm-10">
+                                                                    <input type="email" class="form-control"
+                                                                        id="inputAltOp">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">13</th>
+                                                        <td>¿En que trabaja?</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4 row">
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-13A">Hogar</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA13" id="DGEN-RA-13A" value="A1">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label" for="DGEN-RA-13B">Fuera
+                                                                    del
+                                                                    hogar</label>
+                                                                <input class="form-check-input collapsable" type="radio"
+                                                                    name="DGENRA13" id="DGEN-RA-13B" value="B2">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-13C">Pensionado</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA13" id="DGEN-RA-13C" value="C3">
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <label class="form-check-label"
+                                                                    for="DGEN-RA-13D">Jubilado</label>
+                                                                <input class="form-check-input" type="radio"
+                                                                    name="DGENRA13" id="DGEN-RA-13D" value="D4">
+                                                            </div>
+                                                            <div class="row m-1 collapse" id="OtherOptions13"
+                                                                radio-family="DGENRA13">
+                                                                <label for="inputAltOp"
+                                                                    class="col-sm-6 col-form-label">Si
+                                                                    trabaja
+                                                                    fuera
+                                                                    del
+                                                                    hogar
+                                                                    describir
+                                                                    ¿en que
+                                                                    trabaja?</label>
+                                                                <div class="col-sm-6">
+                                                                    <input type="email" class="form-control"
+                                                                        id="inputAltOp">
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">14</th>
+                                                        <td>¿Cuantos años
+                                                            estudio?</td>
+                                                        <td>
+                                                            <div class>
+                                                                <input type="number" class="form-control"
+                                                                    id="DGEN-RA-14">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">15</th>
+                                                        <td>¿Cuál es su
+                                                            escolaridad
+                                                            máxima?</td>
+                                                        <td>
+                                                            <div class>
+                                                                <select class="form-select"
+                                                                    aria-label="Default select example">
+                                                                    <option selected>Escolaridad</option>
+                                                                    <option value="DGEN-RA-15A">Primaria</option>
+                                                                    <option value="DGEN-RA-15B">Secundaria</option>
+                                                                    <option value="DGEN-RA-15C">Bachillerato</option>
+                                                                    <option value="DGEN-RA-15D">Universidad</option>
+                                                                </select>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </form>
+                                    </li>
+
+                                    <li class="list-group-item"></li>
+
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <div class="row">
+                                <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                <h6 class="modal-title col px-1">15</h6>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="Modal_MNAM" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">MINI
+                                NUTRITIONAL ASSESSMENT MNA</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <div class="row">
+                                <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                <h6 class="modal-title col px-1">15</h6>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="Modal_CSFDS" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">CUESTIONARIO
+                                SARC-F PARA LA
+                                DETECCIÓN DE SARCOPENIA</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <div class="row">
+                                <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                <h6 class="modal-title col px-1">15</h6>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="Modal_FRAIL" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">CUESTIONARIO
+                                FRAIL</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <li class="list-group-item">
+                                <form class="row g-3 needs-validation" novalidate>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">Pregunta</th>
+                                                <th scope="col">Respuesta</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>En las últimas 4 semanas;
+                                                    ¿Qué tanto tiempo se sintió cansado?
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex flex-column">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label" for="FRAIL-RA-1A">Todo el
+                                                                tiempo</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="FRAIL-RA-1" id="FRAIL-RA-1A" value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label" for="FRAIL-RA-1B">La mayor
+                                                                parte del tiempo</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="FRAIL-RA-1" id="FRAIL-RA-1B" value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label" for="FRAIL-RA-1C">Algo de
+                                                                tiempo</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="FRAIL-RA-1" id="FRAIL-RA-1C" value="option3">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label" for="FRAIL-RA-1D">Muy poco
+                                                                tiempo</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="FRAIL-RA-1" id="FRAIL-RA-1D" value="option4">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label" for="FRAIL-RA-1D">Nada de
+                                                                tiempo</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="FRAIL-RA-1" id="FRAIL-RA-1D" value="option4">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Usted solo sin ningún auxiliar como bastón o andadera;
+                                                    ¿Tiene dificultad para subir 10 escalones (una escalera)?
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex flex-column">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label" for="FRAIL-RA-2A">Si</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="FRAIL-RA-2" id="FRAIL-RA-2A" value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label" for="FRAIL-RA-2B">No</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="FRAIL-RA-2" id="FRAIL-RA-2B" value="option2">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>
+                                                    Usted solo sin ningún auxiliar como bastón o andadera;
+                                                    ¿Tiene dificultad para caminar 100 metros (dos cuadras) sin
+                                                    descansar?
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex flex-column">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label" for="FRAIL-RA-3A">Si</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="FRAIL-RA-3" id="FRAIL-RA-3A" value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label" for="FRAIL-RA-3B">No</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="FRAIL-RA-3" id="FRAIL-RA-3B" value="option2">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>Para las 11 enfermedades, los participantes se les pregunta:
+                                                    ¿Algún doctor o médico le ha comentado que tiene [mencionar la
+                                                    enfermedad]?
+                                                    Señala las enfermedades que padece el adulto mayor.
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex flex-column">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label" for="FRAIL-RA-4A">Si</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="FRAIL-RA-4" id="FRAIL-RA-4A" value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label" for="FRAIL-RA-4B">No</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="FRAIL-RA-4" id="FRAIL-RA-4B" value="option2">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">5</th>
+                                                <td>. ¿Cuánto pesa con su ropa sin zapatos? [peso actual]”
+                                                    Hace un año ¿Cuánto pesaba con ropa y sin zapatos? [Peso hace un
+                                                    año]
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex flex-column">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label" for="FRAIL-RA-4A">El
+                                                                porcentaje de cambio de peso se calcula de la siguiente
+                                                                manera:
+                                                                [(Peso hace un año – Peso actual) / Peso hace un año] *
+                                                                100.
+                                                                Si la pérdida de peso es ≥5% se suma un punto (+1),
+                                                                si es ≤4 se puntúa como 0</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="FRAIL-RA-4" id="FRAIL-RA-4A" value="option1">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </form>
+                            </li>
+                            <li class="list-group-item">
+                                <form class="row g-3">
+                                    <table class="tabindex w-100">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">
+                                                    Seccion</th>
+                                                <th scope="col">
+                                                    Resultado</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">
+                                                    Evaluación</th>
+                                                <td id="MNAM-RA-Evaluacion">Riesgo
+                                                    de malnutrición</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    Cribaje</th>
+                                                <td id="MNAM-RA-Cribaje">16
+                                                    Puntos</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    Evaluación global</th>
+                                                <td id="MNAM-RA-Evaluacion-Global">26
+                                                    Puntos</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </form>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="Modal_ESDP" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div
+                        class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">ESCALA
+                                    SPMSQ DE PFEIFFER</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between">
+                                <div class="row">
+                                    <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                    <h6 class="modal-title col px-1">15</h6>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">cerrar</button>
+                                    <button type="button" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="Modal_EDGTY" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div
+                        class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">ESCALA
+                                    DE DEPRESIÓN GERIÁTRICA TEST
+                                    DE YESAVAGE</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between">
+                                <div class="row">
+                                    <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                    <h6 class="modal-title col px-1">15</h6>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">cerrar</button>
+                                    <button type="button" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="Modal_OSRS" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">OARS SOCIAL RESOURCE SCALE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <div class="row">
+                                <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                <h6 class="modal-title col px-1">15</h6>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="modal fade" id="Modal_KATZ" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div
+                        class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">INDICE
+                                    DE KATZ</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between">
+                                <div class="row">
+                                    <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                    <h6 class="modal-title col px-1">15</h6>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">cerrar</button>
+                                    <button type="button" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="Modal_ESDP" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">ESCALA SPMSQ DE PFEIFFER</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <section class="card-body overflow-auto scrollbar-morpheus-den">
+                                <ul class="list-group list-group-flush px-2">
+                                    <li class="ist-group-item">
+                                        <form class="row g-3 needs-validation" novalidate>
+                                            <div class="col-md-3">
+                                                <label class="form-label">Fecha</label>
+                                                <input type="date" class="form-control" id="CSFDS-IP-1" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label class="form-label"></label>
+                                            </div>
+                                        </form>
+                                    </li>
+                                    <li class="ist-group-item">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col"></th>
+                                                    <th scope="col">Pregunta</th>
+                                                    <th scope="col">Correcto</th>
+                                                    <th scope="col">Incorrecto</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>¿Qué fecha es hoy (día, mes, año)?</td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-1" id="ESDP-RA-1Y" value="option1">
+
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-1" id="ESDP-RA-1N" value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>¿Qué día de la semana?</td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-2" id="ESDP-RA-2Y" value="option1">
+
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-2" id="ESDP-RA-2N" value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>No. teléfono o dirección</td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-3" id="ESDP-RA-3Y" value="option1">
+
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-3" id="ESDP-RA-3N" value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">4</th>
+                                                    <td>¿Dónde estamos ahora?</td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-4" id="ESDP-RA-4Y" value="option1">
+
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-4" id="ESDP-RA-4N" value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">5</th>
+                                                    <td>¿Qué edad tiene?</td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-5" id="ESDP-RA-5Y" value="option1">
+
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-5" id="ESDP-RA-5N" value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">6</th>
+                                                    <td>¿Cuándo nació (día, mes y año)?</td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-6" id="ESDP-RA-6Y" value="option1">
+
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-6" id="ESDP-RA-6N" value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">7</th>
+                                                    <td>¿Quién es el presidente del gobierno?</td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-7" id="ESDP-RA-7Y" value="option1">
+
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-7" id="ESDP-RA-7N" value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">8</th>
+                                                    <td>¿Quién era anterior presidente gobierno?</td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-8" id="ESDP-RA-8Y" value="option1">
+
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-8" id="ESDP-RA-8N" value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">9</th>
+                                                    <td>¿Cuál era 1er apellido de su madre?</td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-9" id="ESDP-RA-9Y" value="option1">
+
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-9" id="ESDP-RA-9N" value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">10</th>
+                                                    <td>¿Reste de 3 en 3 desde 20</td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-10" id="ESDP-RA-10Y" value="option1">
+
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="ESDP-RA-10" id="ESDP-RA-10N" value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr></tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li class="ist-group-item">
+                                        <table class="table">
+                                            <thead></thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="2 row">Total de puntos obtenidos:</th>
+                                                    <td>
+                                                        <label id="ESDP-RA-Puntos">5 Puntos</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="2 row">Interpretación:</th>
+                                                    <td>
+                                                        <label id="ESDP-RA-Puntos">deterioro cognitivo leve </label>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <div class="row">
+                                <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                <h6 class="modal-title col px-1">15</h6>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="Modal_EDGTY" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">ESCALA DE DEPRESIÓN GERIÁTRICA TEST
+                                DE YESAVAGE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <div class="row">
+                                <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                <h6 class="modal-title col px-1">15</h6>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="Modal_OSRS" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">OARS SOCIAL RESOURCE SCALE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <section class="card-body overflow-auto scrollbar-morpheus-den">
+                                <ul class="list-group list-group-flush px-2">
+                                    <li class="list-group-item">
+                                        <form class="row g-3 needs-validation" novalidate>
+                                            <div class="col-md-3">
+                                                <label class="form-label">Fecha</label>
+                                                <input type="date" class="form-control" id="CSFDS-IP-1" required>
+                                                <div class="valid-feedback">
+                                                    Correcto!
+                                                </div>
+                                                <div class="invalid-feedback">
+                                                    Rellene el campo correctamente.
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <label class="form-label"></label>
+                                            </div>
+                                        </form>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Pregunta</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>¿Su estado civil?</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="4 row">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-1A">Soltero(a)</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA1" id="OSRS-RA-1A"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-1B">Casado(a)</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA1" id="OSRS-RA-1B"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-1C">Viudo(a)</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA1" id="OSRS-RA-1C"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-1D">Divorciado(a)</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA1" id="OSRS-RA-1D"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-1E">Separado(a)</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA1" id="OSRS-RA-1E"
+                                                                value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>¿Quién vive con usted?</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="10 row">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-2A">Nadie</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA2" id="OSRS-RA-2A"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-2B">Esposo/a</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA2" id="OSRS-RA-2B"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-2C">Hijos</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA2" id="OSRS-RA-2C"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-2D">Nietos</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA2" id="OSRS-RA-2D"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-2E">Padres</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA2" id="OSRS-RA-2E"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-2F">Otros</label>
+                                                            <input class="form-check-input collapsable" type="radio"
+                                                                name="OSRSRA2" id="OSRS-RA-2F"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="row m-1 collapse" id="OSRS-RA-2F"
+                                                            radio-family="OSRSRA2">
+                                                            <label for="inputAltOp"
+                                                                class="col-sm-2 col-form-label">Cual?</label>
+                                                            <div class="col-sm-10">
+                                                                <input type="email" class="form-control"
+                                                                    id="inputAltOp">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-2D">Hermanos/as</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA2" id="OSRS-RA-2D"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-2D">Otros familiares</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA2" id="OSRS-RA-2D"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-2D">Amigos/as</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA2" id="OSRS-RA-2D"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-2D">Cuidadores pagados</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA2" id="OSRS-RA-2D"
+                                                                value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>¿Cuántas personas conoce suficientemente bien como para visitarlas en su casa?</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="5 row">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-3A">Mayor a 5</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA3" id="OSRS-RA-3A"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-3B">3-4</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA3" id="OSRS-RA-3B"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-3C">Una vez</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA3" id="OSRS-RA-3C"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-3D">Ninguna</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA3" id="OSRS-RA-3D"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-3E">No responde</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA3" id="OSRS-RA-3E"
+                                                                value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">4</th>
+                                                    <td>¿Cuántas veces ha hablado por teléfono con amigos y/o familiares en la última semana?</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="5 row">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-4A">Una vez al día o más</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA4" id="OSRS-RA-4A"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-4B">2-6 veces</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA4" id="OSRS-RA-4B"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-4C">Una vez</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA4" id="OSRS-RA-4C"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-4D">Ninguna</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA4" id="OSRS-RA-4D"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-4E">No responde</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA4" id="OSRS-RA-4E"
+                                                                value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">5</th>
+                                                    <td>¿Cuántas veces durante la semana pasada ha visto a personas que no viven con usted? (visitas, etc.)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="5 row">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-5A">Una vez al día o más</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA5" id="OSRS-RA-5A"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-5B">2-6 veces</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA5" id="OSRS-RA-5B"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-5C">Una vez</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA5" id="OSRS-RA-5C"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-5D">Ninguna</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA5" id="OSRS-RA-5D"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-5E">No responde</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA5" id="OSRS-RA-5E"
+                                                                value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">6</th>
+                                                    <td>¿Tiene usted alguna persona en quien confiar? </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="4 row">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-6A">Sí</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA6" id="OSRS-RA-6A"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-6B">No</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA6" id="OSRS-RA-6B"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-6C">No responde</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA6" id="OSRS-RA-6C"
+                                                                value="option1">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">7</th>
+                                                    <td>¿Se encuentra solo o se siente en soledad?</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="4 row">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-7A">Casi nunca</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA7" id="OSRS-RA-7A"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-7B">Algunas veces</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA7" id="OSRS-RA-7B"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-7C">A menudo</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA7" id="OSRS-RA-7C"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-7D">No responde</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA7" id="OSRS-RA-7D"
+                                                                value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">8</th>
+                                                    <td>¿Ve usted a sus amigos y familiares tan a menudo como a usted le gustaría?</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="4 row">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-8A">Sí</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA8" id="OSRS-RA-8A"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-8B">No</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA8" id="OSRS-RA-8B"
+                                                                value="option2">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-8C">No responde</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA8" id="OSRS-RA-8C"
+                                                                value="option1">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">9</th>
+                                                    <td>¿Si alguna vez necesitase usted ayuda por encontrarse incapacitado, tendría quien le prestase esa ayuda?</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="4 row">
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-9A">Sí</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA9" id="OSRS-RA-9A"
+                                                                value="option1">
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label"
+                                                                for="OSRS-RA-9B">No</label>
+                                                            <input class="form-check-input" type="radio"
+                                                                name="OSRSRA9" id="OSRS-RA-9B"
+                                                                value="option2">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <div class="row">
+                                <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                <h6 class="modal-title col px-1">15</h6>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="Modal_KATZ" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">INDICE DE KATZ</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <li class="ist-group-item">
+                                <form class="row g-3 needs-validation" novalidate>
+                                    <div class="col-md-3">
+                                        <label class="form-label">Fecha</label>
+                                        <input type="date" class="form-control" id="CSFDS-IP-1" required>
+                                        <div class="valid-feedback">
+                                            Correcto!
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Rellene el campo correctamente.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label class="form-label"></label>
+                                    </div>
+                                </form>
+                            </li>
+                            <li class="ist-group-item">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Pregunta</th>
+                                            <th scope="col">Respuesta</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Baño (esponja, regadera o tina)</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="IK-RA-1B">Independiente. Se baña enteramente solo o necesita ayuda solo para lavar alguna zona (como la espalda o una extremidad con minusvalía). 
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="IK-RA-1"
+                                                            id="IKRA1" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="IK-RA-1B">Dependiente. Necesita ayuda para lavar más de una zona del cuerpo, ayuda para entrar o salir en la bañera o no se baña solo(a). 
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="IK-RA-1"
+                                                            id="IKRA1" value="option2">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Vestido</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="IK-RA-2A">Independiente. Selecciona la ropa de los cajones y armarios, se la pone y puede abrocharse. Se excluye el acto de atarse los zapatos.  
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="IK-RA-2"
+                                                            id="IKRA2" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="IK-RA-2B">Dependiente. No se viste por sí mismo o permanece parcialmente desvestido.
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="IK-RA-2"
+                                                            id="IKRA2" value="option2">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Uso del sanitario</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="IK-RA-3A">Independiente. Va al sanitario solo, se arregla la ropa y se asea los órganos excretores. Puede o no usar soportes mecánicos.
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="IK-RA-3"
+                                                            id="IKRA3" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="IK-RA-3B">Dependiente. Precisa ayuda para ir al sanitario.
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="IK-RA-3"
+                                                            id="IKRA3" value="option2">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Movilidad</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="IK-RA-4A">Independiente. Se levanta y se acuesta en la cama por sí mismo y puede sentarse y levantarse de una silla por sí mismo. Puede o no usar soportes mecánicos.
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="IK-RA-4"
+                                                            id="IKRA4" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="IK-RA-4B">Dependiente. Necesita ayuda para levantarse y acostarse en la cama y/o silla, no realiza uno o más desplazamientos.
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="IK-RA-4"
+                                                            id="IKRA4" value="option2">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Continencia</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="IK-RA-5A">Independiente. Control completo de micción y defecación.
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="IK-RA-5"
+                                                            id="IKRA5" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="IK-RA-5B">Dependiente. Incontinencia parcial o total de la micción o la defecación. Utiliza pañal.
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="IK-RA-5"
+                                                            id="IKRA5" value="option2">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Alimentación</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="IK-RA-6A">Independiente. Lleva el alimento a la boca desde el plato o equivalente. Se excluye cortar la carne.
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="IK-RA-6"
+                                                            id="IKRA6" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="IK-RA-6B">Dependiente. Necesita ayuda para comer, no come en lo absoluto requiere alimentación parenteral.
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="IK-RA-6"
+                                                            id="IKRA6" value="option2">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <div class="row">
+                                <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                <h6 class="modal-title col px-1">15</h6>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="Modal_EDLB" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">ESCALA DE LAWTON Y BROD</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <li class="ist-group-item">
+                                <form class="row g-3 needs-validation" novalidate>
+                                    <div class="col-md-3">
+                                        <label class="form-label">Fecha</label>
+                                        <input type="date" class="form-control" id="CSFDS-IP-1" required>
+                                        <div class="valid-feedback">
+                                            Correcto!
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Rellene el campo correctamente.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label class="form-label"></label>
+                                    </div>
+                                </form>
+                            </li>
+                            <li class="ist-group-item">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Pregunta</th>
+                                            <th scope="col">Puntos</th>
+                                            <th scope="col">Respuesta</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Capacidad para usar el teléfono</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-1">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-1">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-1">1</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-1">0</label>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-1A">Utilizar el teléfono por iniciativa propia
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-1"
+                                                            id="ELBRA1" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-1B">Es capaz de marcar bien algunos números familiares
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-1"
+                                                            id="ELBRA1" value="option2">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-1C">Es capaz de contestar el teléfono, pero no de marcar
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-1"
+                                                            id="ELBRA1" value="option3">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-1D">No utiliza el teléfono
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-1"
+                                                            id="ELBRA1" value="option4">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hacer compras</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-2">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-2">0
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-2">0</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-2">0</label>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-2A">Realiza todas la compras necesarias independientemente
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-2"
+                                                            id="ELBRA2" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-2B">Realiza independientemente pequeñas compras
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-2"
+                                                            id="ELBRA2" value="option2">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-2C">Necesita ir acompañado para realizar cualquier compra
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-2"
+                                                            id="ELBRA2" value="option3">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-2D">Totalmente incapaz de comprar
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-2"
+                                                            id="ELBRA2" value="option4">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Preparación de la comida</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-3">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-3">0
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-3">0</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-3">0</label>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-3A">Organiza, prepara y sirve las comidas por sí solo adecuadamente
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-3"
+                                                            id="ELBRA3" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-3B">Prepara adecuadamente las comidas, si se le proporcionan los ingredientes
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-3"
+                                                            id="ELBRA3" value="option2">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-3C">Prepara, calienta y sirve las comidas, pero no sigue una dieta adecuada
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-3"
+                                                            id="ELBRA3" value="option3">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-3D">Necesita que le preparen y sirvan la comida
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-3"
+                                                            id="ELBRA3" value="option4">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cuidado de la casa</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4">1</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4">1</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4">0</label>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4A">Mantiene la casa solo con ayuda ocasional (para trabajos pesados)
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-4"
+                                                            id="ELBRA4" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4B">Realiza tareas ligeras, como lavar los platos o hacer las camas
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-4"
+                                                            id="ELBRA4" value="option2">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4C">Realiza tareas ligeras, pero no puede mantener un adecuado nivel de limpieza
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-4"
+                                                            id="ELBRA4" value="option3">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4D">Necesita ayuda en todas las labores de la casa
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-4"
+                                                            id="ELBRA4" value="option4">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4E">No participan en ninguna labor de la casa
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-4"
+                                                            id="ELBRA4" value="option5">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lavado de la ropa</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-5">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-5">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-5">0</label>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-5A">Lava por si solo toda su ropa
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-5"
+                                                            id="ELBRA5" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-5B">Lava por si solo pequeñas prendas 
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-5"
+                                                            id="ELBRA5" value="option2">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-5C">Todo el lavado de ropa debe ser realizado por otro
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-5"
+                                                            id="ELBRA5" value="option3">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Uso de medios de transporte</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4">1</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4">0</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-4">0</label>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-6A">Viaja solo en transporte público o conduce su propio coche
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-6"
+                                                            id="ELBRA6" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-6B">Es capaz de coger un taxi, pero no usa otro medio de transporte
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-6"
+                                                            id="ELBRA6" value="option2">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-6C">Viaja en transporte público cuando va acompañado por otra persona
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-6"
+                                                            id="ELBRA6" value="option3">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-6D">Utiliza el taxi o el automóvil solo con ayuda de otros
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-6"
+                                                            id="ELBRA6" value="option4">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-6E">No viaja en absoluto
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-6"
+                                                            id="ELBRA6|" value="option5">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Responsabilidad respecto a su medicación</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-7">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-7">0
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-7">0</label>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-7A">Es capaz de tomar su medición a la hora y dosis correcta
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-7"
+                                                            id="ELBRA7" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-7B">Toma su medicación si la dosis es preparada previamente
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-7"
+                                                            id="ELBRA7" value="option2">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-7C">No es capaz de administrarse su propio medicamento 
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-7"
+                                                            id="ELBRA7" value="option3">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Manejo de sus asuntos económicos</td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-8">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-8">1
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-8">0</label>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex flex-column">
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-8A">Se encarga de sus asuntos económicos por si solo
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-8"
+                                                            id="ELBRA8" value="option1">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-8B">Realiza las compras de cada dia, pero necesita ayuda en las grandes compras, bancos
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-8"
+                                                            id="ELBRA8" value="option2">
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <label class="form-check-label" for="ELB-RA-8C">Incapaz de manejar dinero 
+                                                        </label>
+                                                        <input class="form-check-input" type="radio" name="ELB-RA-8"
+                                                            id="ELBRA8" value="option3">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </li>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <div class="row">
+                                <h6 class="modal-title col px-0">PUNTAJE:</h6>
+                                <h6 class="modal-title col px-1">15</h6>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/collapse.js"></script>
+
+</body>
+
+</html>
