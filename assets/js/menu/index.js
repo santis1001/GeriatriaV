@@ -14,10 +14,10 @@ GetList();
 
 
 function GetList() {
-    if(Local_list!= null){
+    if (Local_list != null) {
         init(Local_list);
     }
-    
+
     GetData(Matricula, "Indexer")
         .then(function (data) {
             if (isNewData(data, Local_list)) {
@@ -36,8 +36,13 @@ function saveDataToLocalstorage(data) {
     localStorage.setItem(Matricula, jsonData);
 }
 function loadDataFromLocalStorage() {
-    var jsonData = localStorage.getItem(Matricula);
-    return JSON.parse(jsonData);
+    try {
+        var jsonData = localStorage.getItem(Matricula);
+        return JSON.parse(jsonData);
+        
+    } catch (error) {
+        
+    }
 }
 function isNewData(newData, storedData) {
     var newJsonData = JSON.stringify(newData);
@@ -141,34 +146,38 @@ function isNewData(newData, storedData) {
 function FillSideList(encuestados) {
     const container = document.getElementById('Side_Nav');
     container.innerHTML = '';
-    encuestados.forEach(element => {
+    document.getElementById('Encuesta_content').setAttribute('class','row  h-75p justify-content-center');
+    try {
+        encuestados.forEach(element => {
+            const El_a = document.createElement('a');
+            El_a.setAttribute('class', 'list-group-item list-group-item-action py-3 lh-tight');
+            const url = thisURL + Matricula + addURL + element.Folio;
+            El_a.setAttribute('href', url)
+            El_a.setAttribute('aria-current', 'true');
+            if (element.Folio == Folio) {
+                El_a.setAttribute('class', 'list-group-item list-group-item-action py-3 lh-tight active');
+                globalSelected = element;
+            }
+            const El_div = document.createElement('div');
+            El_div.setAttribute('class', 'd-flex w-100 align-items-center justify-content-between');
 
-        const El_a = document.createElement('a');
-        El_a.setAttribute('class', 'list-group-item list-group-item-action py-3 lh-tight');
-        const url = thisURL + Matricula + addURL + element.Folio;
-        El_a.setAttribute('href', url)
-        El_a.setAttribute('aria-current', 'true');
-        if (element.Folio == Folio) {
-            El_a.setAttribute('class', 'list-group-item list-group-item-action py-3 lh-tight active');
-            globalSelected = element;
-        }
-        const El_div = document.createElement('div');
-        El_div.setAttribute('class', 'd-flex w-100 align-items-center justify-content-between');
+            const El_strong = document.createElement('strong');
+            El_strong.setAttribute('class', 'mb-1');
+            El_strong.textContent = element.Nombre + ' ' + element.Apellido;
 
-        const El_strong = document.createElement('strong');
-        El_strong.setAttribute('class', 'mb-1');
-        El_strong.textContent = element.Nombre + ' ' + element.Apellido;
+            const El_small = document.createElement('small');
+            El_small.textContent = 'Folio: ' + element.Folio;
 
-        const El_small = document.createElement('small');
-        El_small.textContent = 'Folio: ' + element.Folio;
+            El_div.appendChild(El_strong);
+            El_div.appendChild(El_small);
 
-        El_div.appendChild(El_strong);
-        El_div.appendChild(El_small);
+            El_a.appendChild(El_div);
 
-        El_a.appendChild(El_div);
-
-        container.appendChild(El_a);
-    });
+            container.appendChild(El_a);
+        });
+    } catch (error) {
+        document.getElementById('Encuesta_content').setAttribute('class','row  h-75p justify-content-center d-none');
+    }
     try {
         console.log(Folio.length);
     } catch {
